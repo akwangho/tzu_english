@@ -1,0 +1,72 @@
+#humble {
+	position: absolute;
+	height: auto;
+	z-index: 1;
+	left: 736px;
+	top: 6px;
+	font-family: "微軟正黑體";
+	overflow-y: hidden;
+	overflow: visible;
+  cursor: default;
+}
+#Humble_table_1 {
+	margin: auto;
+	padding-top: 30px;
+	padding-right: 20px;
+	padding-left: 50px;
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	font-weight: bold;
+	color: #202945;
+}
+#Humble_table_2 {
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-right: 18px;
+	font-family: "微軟正黑體";
+	color: #202945;
+	font-size: 12px;
+}
+#humblerH1 {
+	position: relative;
+	width: 266px;
+	z-index: 1;
+	background-image: url(../images/h_01.png);
+	background-repeat: no-repeat;
+	height: 64px;
+}
+#humblerH2 {
+	position: relative;
+	width: 266px;
+	z-index: 1;
+	background-image: url(../images/h_02.png);
+	background-repeat: repeat-y;
+  height: auto;
+	text-align: left;
+	overflow: hidden;
+}
+#humblerH3 {
+	position: relative;
+	width: 266px;
+	z-index: 1;
+	background-image: url(../images/h_03.png);
+	height: 28px;
+	background-repeat: no-repeat;
+}
+#humbleH1Header {
+	position: relative;
+	width: 200px;
+	height: auto;
+	z-index: 1;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+#humbleContent {
+	position: relative;
+	width: 180px;
+	height: auto;
+	z-index: 1;
+	font-family: "微軟正黑體";
+	font-size: 12px;
+	margin-left: 50px;
+}

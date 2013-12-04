@@ -1,0 +1,235 @@
+img {
+  text-decoration: none; border: 0px
+}
+#homeMenu a {
+  text-decoration: none;
+  color: black;
+}
+#homeMenu a:hover {
+  opacity: 0.8;                
+  border-bottom: #005a9c 2px solid;
+}
+#body {
+	width: 1002px;
+	margin: auto;
+}
+#header {
+	height: 116px;
+	width: 1002px;
+  background-image: url(../images/logo.gif);
+	background-repeat: no-repeat;
+	position: relative;
+}
+#button_top {
+	height: 50px;
+	width: 1002px;
+	background-color: #557eb3;
+	text-decoration: none;
+}
+#top_menu_style {
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #bbd0f7;
+	color: #202945;
+	text-align: center;
+	text-decoration: none;
+}
+#top_menu_style a {
+	text-decoration: none;
+	color: #202945;
+}
+#top_menu_style .changeColor:hover {
+	color: white;
+}
+.nocursor {
+	cursor: default;
+}
+#main_top {
+	height: 24px;
+	width: 1002px;
+	position: relative;
+}
+#right {
+	width: 257px;
+	float: right;
+}
+#right_menu_1 {
+	height: 65px;
+}
+#body #right #rightOtherlink #subtitle_3 {
+	font-family: "微軟正黑體";
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#right_menu_2 {
+	overflow: hidden;
+}
+#footer {
+	height: 60px;
+	width: 1002px;
+	clear: both;
+	background-color: #2c5697;
+	font-size: 10px;
+	color: #bccde5;
+	padding-top: 30px;
+	text-align: center;
+}
+#left {
+	float: left;
+	width: 745px;
+}
+#main1 {
+	width: 24px;
+	float: left;
+}
+#down {
+	clear: both;
+	width: 1002px;
+	height: 10px;
+}
+#main2 {
+	float: right;
+	width: 721px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #C0CDE0;
+	border-right-color: #C0CDE0;
+	border-bottom-color: #C0CDE0;
+	border-left-color: #C0CDE0;
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	min-height: 500px;
+}
+#main2_1 {
+	width: 721px;
+	position: relative;
+}
+#main2_2 {
+	width: 721px;
+	position: relative;
+	margin-bottom: 20px;
+}
+#main2_3 {
+	width: 721px;
+	position: relative;
+}
+#homeMenu {
+	position: absolute;
+	width: 223px;
+	height: 20px;
+	z-index: 1;
+	left: 497px;
+	top: 92px;
+	font-weight: bold;
+	font-size: 12px;
+}
+#subtitle_1 {
+	font-size: 14px;
+	padding-left: 25px;
+	color: #202945;
+	padding-top: 10px;
+	font-weight: bold;
+}
+#subtitle_3 {
+	font-size: 12px;
+	color: #202945;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+}
+#subtitle_5 {
+	height: 20px;
+}
+.separator-top {
+	height: 2px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #C0CDE0;
+	border-right-color: #C0CDE0;
+	border-bottom-color: #C0CDE0;
+	border-left-color: #C0CDE0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.separator-bottom {
+	height: 2px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #C0CDE0;
+	border-bottom-color: #C0CDE0;
+	border-left-color: #C0CDE0;
+	margin: 0px auto;
+}
+.long {
+	width: 670px;
+}
+.short {
+	width: 220px;
+}
+.rightButton {
+	position: relative;
+	width: auto;
+	height: auto;
+	left: -30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#rightOtherlink {
+	display: none;
+}
+#otherlink_content {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+#otherlink_content a {
+  text-decoration: none;
+  color: #202945;
+}
+#otherlink_content a:hover {
+	color: #330000;
+}
+#rightOtherlink #otherlink_content li {
+	float: none;
+	list-style-type: none;
+  margin-right: 10px;
+}
+#main2_3 #otherlink_content li {
+	float: left;
+	list-style-type: none;
+  margin-right: 10px;
+}
+#main2_3 #otherlink_content li:not(:last-child):after {
+  margin-left: 5px;
+  content: " | ";
+}
+#main2_3 #otherlink_content li {
+	float: left;
+	list-style-type: none;
+  margin-right: 10px;
+}

@@ -1,0 +1,38 @@
+/* HomeMenu (Home | Sitemap | Contact us | 中文版) 部分 */
+#homeMenu {
+	left: 19px;
+	top: 82px;
+}
+
+/* Logo 部分 */
+#header {
+  background-image: url(../images/main_logo.jpg);
+}
+
+/* RightMenu (彈鋼琴) 部分 */
+#right_menu_1 {
+	height: 18px;
+}
+
+/* Humble (菜根譚) 部分 */
+#humble {
+	top: 101px;
+}
+#humblerH2 {
+	height: 0px;
+}
+
+/* Slinding Image (大圖廣告) 部分 */
+#main2_1_slidingimg {
+  display: none;
+}
+
+/* 隱藏左邊 Other link 部分 */
+#main2_3 {
+  display: none;
+}
+
+/* 顯示右邊 Other link 部分 */
+#rightOtherlink {
+  display: block;
+}

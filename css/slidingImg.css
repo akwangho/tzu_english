@@ -1,0 +1,49 @@
+.slidingImg {
+	position: relative;
+	width: 670px;
+	height: 200px;
+	overflow: hidden;
+	margin: 20px 0px 0px;
+}
+
+.slidingImg ul {
+	list-style: none;
+	margin: 0px;
+	display: block;
+	height: 200px;
+	width: 1340px;
+	
+	}
+
+.slidingImg ul li {
+	float: left;
+}
+
+.slidingImg ul li a {
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0%;
+	text-indent: -1000px;
+	border-right: 2px solid #fff;
+	cursor:pointer;
+	display:block;
+	overflow:hidden;
+	width:78px;
+	height: 200px;
+}
+
+.slidingImg ul li.last a {
+	min-width:447px;
+}
+
+#slindingImgText {
+	background-color: #e9effb;
+	font-family: "微軟正黑體";
+	font-size: 12px;
+	font-weight: bold;
+	color: #07102d;
+	text-align: right;
+	height: 25px;
+	width: 631px;
+	margin-left: 40px;
+}
