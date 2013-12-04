@@ -4,7 +4,6 @@ function initTopMenuFadeIn(tableElement, menuBarElement) {
 	$( "#floatingSubmenuContent" ).html( $(menuBarElement).html());
 	$( "#floatingSubmenu" ).css({left: middlePosition});
 	$( "#floatingSubmenu" ).fadeIn(100);
-      $("#floatingUl
   }, null);
 }
 
