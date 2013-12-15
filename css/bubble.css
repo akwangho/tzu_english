@@ -1,6 +1,6 @@
 #floatingSubmenu {
 	position: absolute;
-    min-width: 500px;
+	min-width: 500px;
 	width: auto;
 	height: 61px;
 	z-index: 2;
