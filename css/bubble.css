@@ -1,6 +1,5 @@
 #floatingSubmenu {
 	position: absolute;
-	min-width: 500px;
 	width: auto;
 	height: 61px;
 	z-index: 2;
@@ -8,6 +7,8 @@
 	top: 164px;
 	font-size: 12px;
 	font-weight: normal;
+	min-width: 500px;
+	display: none;
 }
 #bubbleLeft {
 	position: relative;
