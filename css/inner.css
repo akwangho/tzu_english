@@ -1,38 +1,58 @@
-/* HomeMenu (Home | Sitemap | Contact us | ¤¤¤åª©) ³¡¤À */
+/* HomeMenu (Home | Sitemap | Contact us | ï¿½ï¿½ï¿½åª©) ï¿½ï¿½ï¿½ï¿½ */
 #homeMenu {
 	left: 19px;
 	top: 82px;
 }
 
-/* Logo ³¡¤À */
+/* Logo ï¿½ï¿½ï¿½ï¿½ */
 #header {
   background-image: url(../images/main_logo.jpg);
 }
 
-/* RightMenu (¼u¿ûµ^) ³¡¤À */
+/* RightMenu (ï¿½uï¿½ï¿½^) ï¿½ï¿½ï¿½ï¿½ */
 #right_menu_1 {
 	height: 18px;
 }
 
-/* Humble (µæ®ÚÃÓ) ³¡¤À */
+/* Humble (ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½ */
 #humble {
 	top: 101px;
 }
 #humblerH2 {
 	height: 0px;
+	min-height: inherit;
 }
 
-/* Slinding Image (¤j¹Ï¼s§i) ³¡¤À */
+/* Slinding Image (ï¿½jï¿½Ï¼sï¿½i) ï¿½ï¿½ï¿½ï¿½ */
 #main2_1_slidingimg {
   display: none;
 }
 
-/* ÁôÂÃ¥ªÃä Other link ³¡¤À */
+/* ï¿½ï¿½ï¿½Ã¥ï¿½ï¿½ï¿½ Other link ï¿½ï¿½ï¿½ï¿½ */
 #main2_3 {
   display: none;
 }
 
-/* Åã¥Ü¥kÃä Other link ³¡¤À */
+/* ï¿½ï¿½Ü¥kï¿½ï¿½ Other link ï¿½ï¿½ï¿½ï¿½ */
 #rightOtherlink {
   display: block;
+}
+#news {
+	display: block;
+	list-style-type: square;
+	color: #003;
+	font-size: 14px;
+	line-height: 1.8em;
+}
+#news li {
+	width: 100%;
+}
+#news li .date {
+	margin-right: 15px;
+	font-size: 12px;
+}
+
+#news li a{
+	text-decoration: none;
+    color: black;
 }

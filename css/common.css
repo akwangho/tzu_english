@@ -57,11 +57,10 @@ img {
 	height: 65px;
 }
 #body #right #rightOtherlink #subtitle_3 {
-	font-family: "微軟正黑體";
+	font-family: "微�?�??�?;
 	font-size: 12px;
 	font-weight: bold;
 }
-
 #right_menu_2 {
 	overflow: hidden;
 }
@@ -146,6 +145,56 @@ img {
 	padding-right: 30px;
 	padding-bottom: 10px;
 	padding-left: 30px;
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+	
+}
+.subtitle_3i #otherlink_content li {
+	width: 30%;
+	float: left;
+	height: 100%;
+	margin-bottom: 5px;
+	list-style-type: none;
+}
+.clear {
+	clear: both;
+}
+
+#otherlink_content {
+	list-style-type: none;
+	padding: 0px;
+    display:none;
+}
+
+#subtitle_3 p {
+	text-align: justify;
+}
+#subtitle_3 h1 {
+	font-size: 1.5em;
+	color: #930;
+}
+#subtitle_3 h2 {
+	font-size: 1em;
+}
+#subtitle_3 table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	border: 1px solid #D1D3E7;
+}
+#subtitle_3 tr {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D1D3E7;
+}
+#subtitle_3 tr td:first-child {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #D1D3E7;
+}
+
+.white {
+	color:white;
 }
 #subtitle_5 {
 	height: 20px;
@@ -197,7 +246,6 @@ img {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
 #rightOtherlink {
 	display: none;
 }
@@ -232,4 +280,64 @@ img {
 	float: left;
 	list-style-type: none;
   margin-right: 10px;
+}
+#temp_icon{
+	width: 650px;
+	}
+#temp_icon ul{
+	list-style-type: none;
+	display: block;
+	padding-left: 0px;
+	}
+#temp_icon ul li{
+	display: inline-block;
+	text-align: center;
+	width: 24%;
+	}	
+#temp_icon ul li h5 {
+	padding: 0px;
+	text-align: left;
+	line-height: 1.2em;
+	width: 75%;
+	margin: 2px auto;
+}
+#temp_icon ul li img {
+	border: 1px solid #CCC;
+	box-shadow: 3px 3px 10px #D8D8D8;
+	border-radius:15px;
+	margin-left: 3px;
+}
+
+
+.temptitle {
+	font-size: 1.5em;
+	color: #900;
+	text-decoration: underline;
+	line-height: 2em;
+}
+#gallery {
+	height: 120px;
+	width: 680px;
+	border: 1px solid #CCC;
+	border-radius:15px;
+	margin: 0px auto 20px;
+	padding: 7px 0 20px;
+	box-shadow: 3px 3px 10px #D8D8D8;
+}
+#gallery ul {
+	list-style-type: none;
+	display: block;
+	padding-left: 27px;
+}
+#gallery ul li {
+	display: inline-block;
+	width: 110px;
+	height: 100px;
+	margin-right: 12px;
+	border: 1px solid #999;
+}
+#gallery ul li img {
+	height: 100px;
+	width: 110px;
+	display: inline-block;
 }

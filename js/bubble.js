@@ -8,10 +8,11 @@ function initTopMenuFadeIn(tableElement, menuBarElement) {
 }
 
 function initTopMenuFadeOut() {
-  // é–‹å§‹æ™‚è®“submenuæ¶ˆå¤±
+  // ?‹å??‚è?submenuæ¶ˆå¤±
+  $(".floatingUl").show(0);
   $( "#floatingSubmenu" ).fadeOut(0);
   
-  // é–‹å§‹æ™‚è®“ä¸‹é¢çš„éˆç•°ç¾è±¡æ¶ˆå¤± (è®“floatingUlçš„çˆ¸çˆ¸æ¶ˆå¤±)
+  // ?‹å??‚è?ä¸‹é¢?„é??°ç¾è±¡æ?å¤?(è®“floatingUl?„çˆ¸?¸æ?å¤?
   $(".floatingUl").parent().hide();
   
   $( "#button_top, #main_top, #floatingSubmenu" ).hover( null, function() {
